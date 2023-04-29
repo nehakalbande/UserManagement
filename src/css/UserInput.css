@@ -1,0 +1,33 @@
+.user-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    margin: 20px;
+  }
+  
+  .user-input-container label {
+    font-weight: bold;
+  }
+  
+  .user-input-container input[type="text"],
+  .user-input-container input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 30px;
+  }
+  
+  .user-input-container button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
